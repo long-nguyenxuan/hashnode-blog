@@ -24,7 +24,7 @@ git submodule add ssh://git@mycompany.com/my-group/other-team-app.git
 # việc chọn https hay ssh thì tùy vào tình huống dự án của bạn 
 ```
 
-lúc này khi check trong folder `/my-project/other-team-app` thay vì có  1 **folder** `.git` thì bạn sẽ có 1 __file__ `.git` lưu link tới cái revision tương ứng của repo tương ứng với submodule đó.  
+lúc này khi check trong folder `/my-project/other-team-app` thay vì có  1 **folder** `[.git]` thì bạn sẽ có 1 _file_ `.git` chứa link tới cái revision tương ứng của repo tương ứng với submodule đó.  
 
 
 ## Bạn là member, và bạn clone 1 project có submodule 
@@ -49,7 +49,7 @@ git submodule update --init --recursive
 # để kéo 8 cái submodule song song 
 ```
 
-## Bạn là members, `other-project` bảo là mới có bản update
+## Bạn là members, `other-project` báo là mới có bản update
 
 ```bash 
 # cd vào trong folder submodule 
