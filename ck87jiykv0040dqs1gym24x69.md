@@ -6,10 +6,10 @@ Trong một số tình huống, bạn cần 1 folder nào đó trong dự án c�
 ví dụ, cái folder `other-team-app` kia là cái bạn cần nó phải "hiện diện" trong repo của mình, nhưng nếu đơn thuần là `copy&paste` cái folder đấy vào, thì khi team kia update code, thì bạn không biết để mà update theo 
 trong tình huống này, bạn cần đến `git submodule`
 ```
-\my-project
-    \other-team-app
-    \my-code-dir 
-    \my-other-code-dir 
+/my-project
+    /other-team-app
+    /my-code-dir 
+    /my-other-code-dir 
 ```
 có vài #TIL ngắn cho vụ này như sau : 
 
