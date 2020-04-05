@@ -19,7 +19,8 @@ Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file 
 3. LUÔN LUÔN `merge` source từ master vào branch của mình và xử lý conflict **trước ** khi tạo **merge request**  
   **merge request** tùy tiện rồi lòi ra 1 đống conflict rồi bị CM chửi thì đừng hỏi tại sao 😅
 
-![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586055290012/OIoO2uD1m.png)
+
+![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586057416735/klkFIxD37.png)
 
 ```
 (*) CM: Configuration Manager: người quản lý các tài liệu, thiết bị, phiên bản trong dự án 
