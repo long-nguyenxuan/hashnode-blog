@@ -8,6 +8,10 @@ Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file 
 
 Đã có khái niệm cơ bản về version control và git 
 
+## Target audience 
+
+All member trong dự án dự định sử dụng Git, hoặc đang áp dụng Git và thấy nó "chẳng khác gì xx" 
+
 ## Một số nguyên tắc cơ bản 
 
 1. KHÔNG BAO GIỜ `push` vào `master`  
