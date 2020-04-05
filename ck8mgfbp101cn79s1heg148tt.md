@@ -20,5 +20,7 @@ Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file 
 
 ![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586055290012/OIoO2uD1m.png)
 
+```
 (*) CM: Configuration Manager: người quản lý các tài liệu, thiết bị, phiên bản trong dự án 
 (*) PM: Project Manager, trong dự án nhỏ, thì PM ôm luôn việc CM. 
+```
