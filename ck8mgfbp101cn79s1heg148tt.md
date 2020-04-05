@@ -16,7 +16,7 @@ Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file 
 2. tag trong master thì phải tương ứng với `tên-của-deliverable-đã-gửi-cho-khách-hàng`  
   `tag` trong các branch thì tùy ý, ai thích đặt sao thì đặt,  
   `tag` có thể là `v1.0`, `v2.0`... hoặc `deliver-0405`, `deliver-0512`... tùy, miễn khi khách bảo "tôi phát hiện một cái lỗi trong phiên bản xx` thì các bạn biết được rằng cái lỗi đó phát sinh ở đâu mà fix, vì có những lúc, như ví dụ trong hình dưới của tôi, lúc tôi đã deliver v4.0 thì khách lại bảo "cái 4.0 tao chưa nghiệm thu đâu, nhưng lúc check source của cái 2.0 thì tao thấy 1 bug" 😑 
-3. LUÔN LUÔN `merge` source từ master vào branch của mình và xử lý conflict trước khi tạo **merge request**  
+3. LUÔN LUÔN `merge` source từ master vào branch của mình và xử lý conflict **trước ** khi tạo **merge request**  
   **merge request** tùy tiện rồi lòi ra 1 đống conflict rồi bị CM chửi thì đừng hỏi tại sao 😅
 
 ![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586055290012/OIoO2uD1m.png)
