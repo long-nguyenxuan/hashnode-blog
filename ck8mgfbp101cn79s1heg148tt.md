@@ -1,4 +1,4 @@
-## Ví dụ về áp dụng Git flow trong dự án
+## Hướng dẫn áp dụng Git flow trong dự án
 
 ## Vấn đề 
 
