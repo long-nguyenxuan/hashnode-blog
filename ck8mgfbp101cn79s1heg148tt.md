@@ -24,7 +24,7 @@ All member trong dự án dự định sử dụng Git, hoặc đang áp dụng 
   **merge request** tùy tiện rồi lòi ra 1 đống conflict rồi bị CM chửi thì đừng hỏi tại sao 😅
 
 
-![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586057416735/klkFIxD37.png)
+![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586070119101/isq7jBopX.png)
 
 ```
 (*) CM: Configuration Manager: người quản lý các tài liệu, thiết bị, phiên bản trong dự án 
