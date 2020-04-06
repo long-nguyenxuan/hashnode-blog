@@ -23,7 +23,7 @@ All member trong dự án dự định sử dụng Git, hoặc đang áp dụng 
 ## Nguyên tắc 
 
 1. **KHÔNG BAO GIỜ** `push` vào `master`  
-  trong master chỉ chứa source merge.  
+  trong master chỉ chứa source được merge.  
   để phòng tránh việc này, gitlab nó protect luôn cái branch `master` và chỉ cho maintainer push vào, trong các dự án lớn, thì chỉ set PM + CM(*) là `maintainer`, còn members bình thường thì quyền `developer` là ổn.
 2. tag trong master thì phải tương ứng với `tên-của-deliverable-đã-gửi-cho-khách-hàng`  
   `tag` trong các branch thì tùy ý, ai thích đặt sao thì đặt,  
