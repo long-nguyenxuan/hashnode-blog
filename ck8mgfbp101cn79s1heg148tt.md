@@ -2,7 +2,9 @@
 
 ## Vấn đề 
 
-Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file và sử dụng các tool version control để quản lý các phiên bản gần như là không thể tránh khỏi, trong quá trình làm việc như vậy, có nhiều best practice có thể áp dụng để tránh giẫm dân nhau, bên dưới là 1 trong những cách như vậy, cái này lấy ý tưởng từ git-flow, và điều chỉnh một chút cho phù hợp với quy trình ở công ty mình đang làm việc (fsoft) 
+Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file và sử dụng các tool version control để quản lý các phiên bản gần như là không thể tránh khỏi, trong quá trình làm việc như vậy, có nhiều best practice có thể áp dụng để tránh giẫm dân nhau, nổi tiếng nhất có thể kể đến git-flow của bác Vincent Driessen, mà sau đó Github và Gitlab chế lại của bác ấy thành Github Flow và GitLab Flow 
+
+Bbên dưới là 1 trong những cách như vậy, cái này lấy ý tưởng từ git-flow, và điều chỉnh một chút cho phù hợp với quy trình ở công ty mình đang làm việc (fsoft), gọi nó là git-fsoft-flow cũng được :P 
 
 ## Pre-condition
 
