@@ -12,9 +12,17 @@ Khi làm dự án phần mềm, việc nhiều người cùng edit chung 1 file 
 
 All member trong dự án dự định sử dụng Git, hoặc đang áp dụng Git và thấy nó "chẳng khác gì xx" 
 
-## Một số nguyên tắc cơ bản 
+## Core Idea
 
-1. KHÔNG BAO GIỜ `push` vào `master`  
+1. nhánh master chứa source production 
+2. nhánh staging chứa source `đang-test` 
+3. mỗi user có 1 nhánh "{username}" để push code hàng ngày. 
+4. nhánh hotfix để xử lý bug production "thực-sự-hot"
+5. user có thể tạo thêm các nhánh để fix bug staging, hoặc fix trong nhánh `{username}` miễn sao fix được bug và gửi vào trong staging được là OK. 
+
+## Nguyên tắc 
+
+1. **KHÔNG BAO GIỜ** `push` vào `master`  
   trong master chỉ chứa source merge.  
   để phòng tránh việc này, gitlab nó protect luôn cái branch `master` và chỉ cho maintainer push vào, trong các dự án lớn, thì chỉ set PM + CM(*) là `maintainer`, còn members bình thường thì quyền `developer` là ổn.
 2. tag trong master thì phải tương ứng với `tên-của-deliverable-đã-gửi-cho-khách-hàng`  
