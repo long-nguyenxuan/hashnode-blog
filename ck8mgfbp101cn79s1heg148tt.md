@@ -16,7 +16,8 @@ All member trong dự án dự định sử dụng Git, hoặc đang áp dụng 
 
 ## Core Idea
 
-1. nhánh master chứa source production 
+1. nhánh master CHỈ chứa source production,  
+  nghĩa là khi có chuyện xảy ra với phiên-bản-vừa-được-deploy, bạn chỉ đơn giản là nhảy-lui 1 revision và re-deploy 
 2. nhánh staging chứa source `đang-test` 
 3. mỗi user có 1 nhánh "{username}" để push code hàng ngày. 
 4. nhánh hotfix để xử lý bug production "thực-sự-hot"
