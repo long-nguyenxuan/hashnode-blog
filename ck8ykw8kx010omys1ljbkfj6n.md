@@ -25,6 +25,6 @@ Tuy nhiên, thông thường bọn **dev non** sau khi được học về build
 
 > oh, **trên mạng** có 1 thứ gọi là `builder pattern` để build class, nên nếu chú mày trưng (expose) cái `constructor` trực tiếp ra như vậy là **sai**. 
 
-*éo phải! Một dev già sẽ bảo bạn tạo `builder` khi bạn **cần phải** dùng đến `builder`. Cái constructor-có-mỗi-2-tham-số của bạn thì không cần `builder` làm gì cả. Còn cái constructor-có-47-tham-số dính tới một tấn data và workflow phức tạp thì cần 1 cái `builder` (hoặc cần xem lại thiết kế của bản thân cái class - nhưng đấy là 1 câu chuyện khác). 
+éo phải! Một dev già sẽ bảo bạn tạo `builder` khi bạn **cần phải** dùng đến `builder`. Cái constructor-có-mỗi-2-tham-số của bạn thì không cần `builder` làm gì cả. Còn cái constructor-có-47-tham-số dính tới một tấn data và workflow phức tạp thì cần 1 cái `builder` (hoặc cần xem lại thiết kế của bản thân cái class - nhưng đấy là 1 câu chuyện khác). 
 
 Coi design pattern là "kinh thánh" thay vì một đống "từ tắt" chính là sự lạm dụng mà anh dev già đó nói. 
