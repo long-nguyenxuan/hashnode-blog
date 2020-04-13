@@ -1,6 +1,5 @@
 ## "lạm dụng design pattern"
 
-// bài dịch từ quora 
 // source: https://qr.ae/pNrvfZ 
 
 ## Hỏi: 
