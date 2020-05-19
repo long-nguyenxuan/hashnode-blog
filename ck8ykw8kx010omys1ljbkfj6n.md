@@ -8,7 +8,7 @@ Vì sao mấy anh senior bảo tôi rằng "design pattern phổ biến qua nên
 
 ## Trả lời: 
 
-Design pattern là 1 cái "từ tắt" mà bọn kiến trúc sư phần mềm (software architect) sử dụng để mô tả thiết kế với nhau. 
+Design pattern là 1 cái "tục ngữ" mà bọn kiến trúc sư phần mềm (software architect) sử dụng để mô tả thiết kế với nhau. 
 Design pattern không phải là 1 bộ quy tắc để quyết định bạn sẽ code cái gì. 
 
 Thử so sánh 2 đoạn mô tả sau: 
@@ -27,4 +27,4 @@ Tuy nhiên, thông thường bọn **dev non** sau khi được học về build
 
 éo phải! Một dev già sẽ bảo bạn tạo `builder` khi bạn **cần phải** dùng đến `builder`. Cái constructor-có-mỗi-2-tham-số của bạn thì không cần `builder` làm gì cả. Còn cái constructor-có-47-tham-số dính tới một tấn data và workflow phức tạp thì cần 1 cái `builder` (hoặc cần xem lại thiết kế của bản thân cái class - nhưng đấy là 1 câu chuyện khác). 
 
-Coi design pattern là "kinh thánh" thay vì một đống "từ tắt" chính là sự lạm dụng mà anh dev già đó nói. 
+Coi design pattern là "kinh thánh" thay vì một đống "tục ngữ" chính là sự lạm dụng mà anh dev già đó nói. 
