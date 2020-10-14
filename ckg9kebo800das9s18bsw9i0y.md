@@ -6,9 +6,14 @@ theo ngành phần mềm nên nội dung phần mềm, nếu bạn nào học CN
 
 ## học tập: 
 
-Môn cơ bản (Lý, Hóa, Địa chất, toán) + mác : đừng lãng phí thời gian cho nó, học cho qua là được, lên lớp ngủ hoặc giả bộ nghe giảng. 
+### Môn cơ bản (Lý, Hóa, Địa chất, toán) + mác : 
+
+đừng lãng phí thời gian cho nó, học cho qua là được, lên lớp ngủ hoặc giả bộ nghe giảng. 
 hồi đó lãng phí 1 tấn thời gian 😭
-Môn chuyên ngành: toàn bộ môn chuyên ngành đều quan trọng. LO CÀY ĐI! CÀY! CÀY! CÀY! tất cả bài tập, tất cả lý thuyết, Software Engineering không cần quá thông minh & siêng năng để làm được, nhưng nếu không phải bạn cực kì thông minh vậy bạn phải rất siêng năng. Những kiến thức này không giúp bạn kiếm việc trong 1-2 năm đầu sau khi ra trường, nhưng nó là cơ sở để bạn bứt tốc ở năm thứ ba trở đi, nếu không có nó phải đi học lại khá cực. 
+
+### Môn chuyên ngành: 
+
+toàn bộ môn chuyên ngành đều quan trọng. LO CÀY ĐI! CÀY! CÀY! CÀY! tất cả bài tập, tất cả lý thuyết, Software Engineering không cần quá thông minh & siêng năng để làm được, nhưng nếu không phải bạn cực kì thông minh vậy bạn phải rất siêng năng. Những kiến thức này không giúp bạn kiếm việc trong 1-2 năm đầu sau khi ra trường, nhưng nó là cơ sở để bạn bứt tốc ở năm thứ ba trở đi, nếu không có nó phải đi học lại khá cực. 
 Thời khóa biểu thay đổi nên chắc sẽ có chút khác, nhưng những cái cơ bản không thể không có là: 
 
 1. lập trình căn bản 
