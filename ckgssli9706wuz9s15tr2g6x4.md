@@ -32,9 +32,12 @@ trong đó chú ý dòng:
 this.button1.Click += new System.EventHandler(this.button1_Click);
 ```
 
-`this.button1_Click` chính là cái hàm mà bạn sẽ viết thêm ruột để xử lý nó.
-như tên của nó, `EventHandler` là cái mà sẽ xử lý (handle) các sự kiện (event) diễn ra trong form
-khi `button1` được `click`, `EventHandler` tương ứng với nó sẽ được kích hoạt, trong đó, cái `object sender`, nó chính là cái object "chứa" button này. 
+`this.button1_Click` chính là cái hàm mà bạn sẽ viết thêm ruột để xử lý bài toán của mình khi button 1 được clicked.
+
+như tên, `EventHandler` là cái mà sẽ xử lý (handle) các sự kiện (event) diễn ra trong form
+
+khi `button1` được `click`, `EventHandler` tương ứng với nó sẽ được kích hoạt, trong đó, cái `object sender`, nó chính là cái object "trỏ vào" button này. 
+
 EventArgs thì đại diện cho cái data liên quan tới event đó, và có thể được sử dụng để truyền tham số (parameters), thông tin trạng thái (state information) hoặc data liên quan, ví dụ như khi 1 button được click, bạn có thể tìm được tọa độ của button đó bằng cách "ép kiểu" (cast) cái EventArgs thành MouseEventArgs
 
 ```cs
