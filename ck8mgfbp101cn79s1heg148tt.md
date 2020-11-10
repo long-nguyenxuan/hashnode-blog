@@ -77,7 +77,7 @@ Trong một số dự án siêu nhỏ & đơn giản, ví dụ như "dự án 1 
 
 
 ```
-(*) staging: môi trường hoàn toàn giống production, thường dùng trong các dự án 
+(*) staging: môi trường hoàn toàn giống production (có thể sử dụng server cấu hình bé hơn), thường dùng trong các dự án lớn, có nhu cầu thực hiện demo/training user
 (*) CM: Configuration Manager: người quản lý các tài liệu, thiết bị, phiên bản trong dự án 
 (*) PM: Project Manager, trong dự án nhỏ, thì PM ôm luôn việc CM. 
 
