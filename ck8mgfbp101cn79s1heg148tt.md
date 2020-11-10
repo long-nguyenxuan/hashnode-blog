@@ -32,7 +32,7 @@ Trong đó
 
 ## Core Idea
 
-1. nhánh master CHỈ chứa source production,  
+1. nhánh `master` CHỈ chứa source production,  
   nghĩa là khi có chuyện xảy ra với phiên-bản-vừa-được-deploy, bạn chỉ đơn giản là nhảy-lui 1 revision và re-deploy 
 2. nhánh `staging` chứa source **chờ nghiệm thu** (*) 
 3. nhánh `testing` chứa source **đang được tester chạy test** 
@@ -58,6 +58,8 @@ Trong đó
 - phiên bản để gửi cho khách hàng nghiệm thu (trong trường hợp dự án có môi trường `staging`) nên có tag name là `uat-v{version number}`, ví dụ: `UAT-v3.0.1` 
 - phiên bản để gửi lên môi trường production, nằm trong nhánh `master` và có tag name là `release-v{version number}`, ví dụ: `release-v3.0.1` 
 
+mấy cái convention này nếu như dự án nào áp dụng CI/CD thì có thể dùng để trigger build node / intergration node chạy luôn, tuy nhiên đấy là câu chuyện khác không nằm trong post này
+
 ## Customize 
 
 ### Dự án 1 người 
@@ -66,8 +68,9 @@ Trong một số dự án siêu nhỏ & đơn giản, ví dụ như "dự án 1 
 
 ### không có tester 
 
-Đôi khi, trong một số công ty nhỏ, làm app nội bộ, "khách hàng" lúc này đồng thời là tester, vậy thì cũng không cần phải tạo thêm nhánh `testing` gì cho rách việc, chỉ cần `feature`, `develop`, `staging`, `master` là OK 
+Đôi khi, trong một số công ty nhỏ, làm app nội bộ, "khách hàng" lúc này đồng thời là tester, vậy thì có khi cũng không cần phải tạo thêm nhánh `develop` & `testing` gì cho rách việc, chỉ cần `feature/*`, `staging`, `master` là OK 
 
+đương nhiên, nếu làm chuẩn quy trình, thì cho dù có đủ 4 branch, bạn vẫn không tốn quá nhiều công sức cho các thao tác này, mà việc control 1 bộ source ngăn nắp sẽ giúp bạn tiết kiệm effort hơn nhiều 
 
 
 ![git-branch-guide.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1586070119101/isq7jBopX.png)
