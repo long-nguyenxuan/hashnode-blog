@@ -73,6 +73,8 @@ Trong một số dự án siêu nhỏ & đơn giản, ví dụ như "dự án 1 
 
 đương nhiên, nếu làm chuẩn và sử dụng hotkey/script tinh tế, thì cho dù có đủ 4 branch, bạn vẫn không tốn quá nhiều công sức cho các thao tác này, mà việc control 1 bộ source ngăn nắp sẽ giúp bạn tiết kiệm effort hơn nhiều 
 
+// open image in new tab để xem ảnh to 😄
+
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1605027984317/r2F1-4fNG.png)
 
 
