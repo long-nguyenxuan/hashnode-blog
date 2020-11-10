@@ -60,7 +60,13 @@ Trong đó
 
 ## Customize 
 
-Trong một số dự án đơn giản, ví dụ như "dự án 1 người" thì bạn cũng có thể trực tiếp push vào master cho đỡ việc, tuy nhiên việc gắn tag name thì nên tuân thủ convention trên, ít nhất là có 2 tag: `UAT-v3.0.1` và `release-v3.0.1` được gắn cùng vào 1 `commit hash` nếu như release và khách hàng confirm "không có lỗi gì" 
+### Dự án 1 người 
+
+Trong một số dự án siêu nhỏ & đơn giản, ví dụ như "dự án 1 người" thì bạn cũng có thể trực tiếp push vào master cho đỡ việc, tuy nhiên việc gắn tag name thì nên tuân thủ convention trên, ít nhất là có 2 tag: `UAT-v3.0.1` và `release-v3.0.1` được gắn cùng vào 1 `commit hash` trên `master` nếu như khi gửi UAT và release và khách hàng confirm "không có lỗi gì" 
+
+### không có tester 
+
+Đôi khi, trong một số công ty nhỏ, làm app nội bộ, "khách hàng" lúc này đồng thời là tester, vậy thì cũng không cần phải tạo thêm nhánh `testing` gì cho rách việc, chỉ cần `feature`, `develop`, `staging`, `master` là OK 
 
 
 
